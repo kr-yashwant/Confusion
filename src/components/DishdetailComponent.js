@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle} from 'reactstrap';
 
-
 function RenderComments({dish}) {
     const comments = dish == null ? [] : dish.comments;
     const commentList = (
