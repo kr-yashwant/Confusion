@@ -7,7 +7,7 @@ export const InitialState = {
     dishes: DISHES,
     promotions: PROMOTIONS,
     leaders: LEADERS,
-    comments: COMMENTS
+    comments: COMMENTS,
 };
 
 export const Reducer = (state = InitialState, action) => {
